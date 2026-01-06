@@ -1,0 +1,7 @@
+.buscar{
+  display: flex;
+  gap:10px;
+}
+input{
+  border-radius: 10px;
+}

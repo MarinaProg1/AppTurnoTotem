@@ -1,0 +1,104 @@
+.totem{
+    background: #3c3d3d33;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 60px;
+    border-radius: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    gap: 20px;
+    position: relative;
+}
+
+.ticket-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ticket {
+  width: 280px;
+  background: white;
+  color: black;
+  font-family: monospace;
+  padding: 16px;
+  border: 1px dashed #999;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.ticket-numero {
+  font-size: 64px;
+  font-weight: bold;
+  margin: 16px 0;
+}
+
+.ticket-footer {
+  font-size: 12px;
+  margin-top: 12px;
+}
+
+.volver {
+  background-color: rgba(240, 248, 255, 0.26);
+  margin-top: 20px;
+}
+
+.logoTitulo{
+  width: 95%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  border-bottom: 1px solid rgb(169, 180, 18);
+  padding-bottom: 15px;
+}
+.logoTitulo img {
+  margin: 0;
+  padding: 0;
+  width: 60px;
+  height: 60px;
+}
+
+svg{
+  position: absolute;
+  top: 45%;
+  left: 85%;
+  width: 100px;
+  height: 100px;
+}
+
+#Vector{
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: mover 1.5s ease-in-out infinite;
+}
+
+@keyframes mover {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2) translateY(15px);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media (max-width: 768px){
+
+.totem{
+  padding: 10px;
+}
+.logoTitulo{
+
+  gap: 20px;
+}
+svg{
+  width: 80px;
+  height: 80px;
+  top: 48%;
+  left: 82%;
+  }
+}

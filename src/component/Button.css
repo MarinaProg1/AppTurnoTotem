@@ -1,0 +1,31 @@
+.btn-primary
+{
+    background: #081a2e;
+    width: 95%;
+    height: 10%;
+    bottom: 30px;
+    font-size: 35px;
+    letter-spacing: 4px;
+    color: #dfdfe4;
+    border-radius: 40px;
+    border: 2px solid rgb(169, 180, 18);
+    box-shadow: 0 2px 8px rgba(32, 31, 31, 0.452);
+    gap:10px;
+}
+.btn-primary:hover{
+  background-color: rgba(252, 248, 5, 0.247);
+  border: 2px solid rgb(169, 180, 18);
+  scale: 1.1;
+  cursor: pointer;
+}
+.btn-icon{
+  width: 40px;
+  height: 40px;
+}
+@media (max-width: 768px){
+    .btn-primary{
+      width: 70%;
+      font-size: 25px;
+    }
+   
+}

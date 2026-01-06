@@ -1,0 +1,15 @@
+.turno{
+    border: 2px solid yellowgreen;
+    border-radius: 40px;
+    font-size: 40px;
+    padding:10px 40px;
+    margin: 10px;
+    color: coral;
+}
+
+.pantalla{
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: center;
+}
