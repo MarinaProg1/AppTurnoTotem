@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { ObtenerTurnosAtendidos } from "../api/TurnoApi.js";
-import "./PanelGerencial.css";
+import "./Panelgerencial.css";
 
 export default function PanelGerencial() {
   const [box, setBox] = useState("");
