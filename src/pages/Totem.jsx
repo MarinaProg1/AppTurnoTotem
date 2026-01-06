@@ -8,7 +8,7 @@ export default function Totem() {
   const [turno, setTurno] = useState(null);
 
   const crear = async (tipo) => {
-    const res = await crearTurno({ tipo });
+    const res = await crearTurno(tipo);
     setTurno(res);
   };
 

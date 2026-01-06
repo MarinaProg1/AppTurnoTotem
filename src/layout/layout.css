@@ -1,9 +1,8 @@
 .cont-layout{
     display: grid;
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     background: #081a2e;
-    /*background: #2a3038;*/
 }
 nav{
    

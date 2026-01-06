@@ -5,7 +5,7 @@ export const crearTurno = async (tipo) => {
   const res = await fetch(API_URL, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(tipo),
+    body: JSON.stringify({tipo}),
   });
   return await res.json();
 };
