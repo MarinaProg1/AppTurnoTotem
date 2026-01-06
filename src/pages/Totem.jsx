@@ -1,7 +1,7 @@
 import { useState , useEffect } from "react";
 import { crearTurno } from "../api/TurnoApi";
+import logoBanco from "../assets/LogoBanco.svg";
 import "./Totem.css";
-
 import Button from "../component/Button";
 
 export default function Totem() {
@@ -27,7 +27,7 @@ function Inicio({ onSelect }) {
   return (
     <div className="totem">
       <div className="logoTitulo">
-        <img src="LogoBanco.svg" alt="Logo Banco" />
+        <img src={logoBanco} alt="Logo Banco" />
         <h1>Demo turnos</h1>
       </div>
        <h2>Sacar turno</h2>

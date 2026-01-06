@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
-import Layout from "./layout/Layout";
+import Layout from "./layout/layout.jsx";
 import Totem from "./pages/Totem";
 import Pantalla from "./pages/Pantalla";
 import Interno from "./pages/Interno";
